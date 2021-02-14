@@ -1,0 +1,16 @@
+{
+  "name": "tatt",
+  "version": "1.0.0",
+  "license": "AGPL-3.0-or-later",
+  "description": "tatt all the things",
+  "author": {
+    "name": "Eric Bednarz",
+    "url": "https://eric.bednarz.dev"
+  },
+  "type": "module",
+  "bin": "./source/cli.js",
+  "main": "./source/test.js",
+  "scripts": {
+    "prepack": "node ./source/fetch.js"
+  }
+}
